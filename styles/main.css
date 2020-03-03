@@ -155,12 +155,12 @@ body {
   display: -ms-flexbox;
   display: flex; }
   .stars div {
-    background: url("/images/star.svg") no-repeat center;
+    background: url("../images/star.svg") no-repeat center;
     height: 15px;
     width: 15px;
     margin-right: 4px; }
   .stars div:nth-child(-n+4) {
-    background: url("/images/star-active.svg") no-repeat center; }
+    background: url("../images/star-active.svg") no-repeat center; }
 
 .content {
   display: -webkit-box;
