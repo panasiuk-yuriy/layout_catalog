@@ -14,6 +14,11 @@
   &__image {
     width: 160px;
     height: 134px;
+    transition: transform 1s;
+  }
+
+  &__image:hover {
+    transform: scale(1.2);
   }
 
   &__item-title {
@@ -37,6 +42,12 @@
 
   &__item-response {
     margin: 0;
+    text-decoration: none;
+    color: black;
+  }
+
+  &__item-response:hover {
+    color: $colorActive;
   }
 
   &__price-box {
@@ -59,24 +70,23 @@
 
   &__link {
     width: 170px;
-    display: block;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: $colorActive;
     color: #fff;
+    border: 1px solid $colorActive;
     border-radius: 5px;
-    text-align: center;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
-    line-height: 40px;
+    box-sizing: border-box;
   }
 
   &__link:hover {
     background: #fff;
-    border-radius: 5px;
-    border: 1px solid $colorActive;
     color: $colorActive;
-    box-sizing: border-box;
   }
 }
 
