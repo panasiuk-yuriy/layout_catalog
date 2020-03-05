@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+a {
+  transition: 1s;
+}
+
 @import "variables";
 @import "header";
 @import "card";
